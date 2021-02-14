@@ -29,6 +29,7 @@ public class Actor : MonoBehaviour
         if (m_ActorsManager)
         {
             m_ActorsManager.actors.Remove(this);
+            //Debug.Log("死んだ");
         }
     }
 }
